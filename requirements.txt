@@ -2,3 +2,4 @@ openai
 dotenv
 astrapy
 langchain
+streamlit
