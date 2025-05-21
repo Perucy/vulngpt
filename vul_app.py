@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from chat_gpt import *
 
-st.title("VulGPT")
+st.title("VulnGPT")
 
 load_dotenv()
 
