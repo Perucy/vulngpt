@@ -3,3 +3,5 @@ dotenv
 astrapy
 langchain
 streamlit
+langchain_openai
+langchain_astradb
