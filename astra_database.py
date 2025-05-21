@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from astrapy.info import CollectionVectorServiceOptions
+#from astrapy.info import CollectionVectorServiceOptions
 from astrapy import DataAPIClient
 from astrapy.constants import VectorMetric
 from langchain_openai import OpenAIEmbeddings
