@@ -1,3 +1,4 @@
+# program that generates random nessus scan data
 import random
 import lorem
 from decimal import Decimal
