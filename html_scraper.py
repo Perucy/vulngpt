@@ -1,8 +1,8 @@
 """
     Author: Perucy Mussiba
     Date: August 2024
-    Project: VulGPT
-    Purpose: Scrape HTML pages
+    Project: VulnGPT
+    Purpose: Scrape HTML pages into a markdown
 """
 
 from urllib.error import HTTPError, URLError
