@@ -5,3 +5,4 @@ langchain
 streamlit
 langchain-openai
 langchain-astradb
+pandas
