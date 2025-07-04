@@ -1,5 +1,4 @@
-"""adds nessus data to astradb using the same database but a different collection
-    called nessus_collection"""
+"""adds nessus data to astradb using the same database but a different collection"""
 
 from random_data import *
 import json
@@ -48,7 +47,7 @@ if __name__ == '__main__':
 
     astradb_token = os.getenv("ASTRA_DB_TOKEN")
     astradb_endpoint = os.getenv("ASTRA_DB_ENDPOINT")
-    astradb_collection = "nessus_collection"
+    astradb_collection = os.getenv("ASTRA_NESSUS_COLLECTION")
     astradb_namespace = os.getenv("ASTRA_DB_NAMESPACE")
     api_key = os.getenv("OPENAI_API_KEY")
 
