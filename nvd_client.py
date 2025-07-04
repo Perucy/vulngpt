@@ -1,7 +1,7 @@
 """
     Author Perucy Mussiba
     Purpose: Utilizes the NVD API to retrieve information from the NVD website for a given CVE
-    Project: VulGPT\nvd_api.py
+    Project: VulnGPT\nvd_api.py
 
 """
 
