@@ -1,14 +1,12 @@
 """
     Processes html markdown text into chunks
     NB: Script was adopted from some online forum probably Github repo
+    Feel free to edit or adopt it as it is
 """
 
 import re
 from langchain.text_splitter import MarkdownTextSplitter
 from langchain.docstore.document import Document
-
-
-
 
 def merge_hyphenated_words(text):
     return re.sub(r"(\w)-\n(\w)", r"\1\2", text)
