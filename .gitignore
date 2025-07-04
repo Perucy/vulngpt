@@ -1,3 +1,4 @@
 .env
 random_data.py
 New_Vuln_Notification_Coding.csv
+__pycache__
