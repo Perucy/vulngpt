@@ -1,4 +1,4 @@
-"""sample code to clean the database"""
+"""sample code to clean the Astra database"""
 import os
 from dotenv import load_dotenv
 from astrapy.info import CollectionVectorServiceOptions
