@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     astradb_token = os.getenv("ASTRA_DB_TOKEN")
     astradb_endpoint = os.getenv("ASTRA_DB_ENDPOINT")
-    astradb_collection = "nessus_collection"
+    astradb_collection = os.getenv("ASTRA_NESSUS_COLLECTION")
     astradb_namespace = os.getenv("ASTRA_DB_NAMESPACE")
 
     client = DataAPIClient(astradb_token)
